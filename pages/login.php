@@ -4,7 +4,7 @@ include '../includes/header.inc.php';
 include '../includes/navbar.inc.php';
 
 ?>
-
+<!-- Login form -->
 <!-- form -->
 
 <section>
