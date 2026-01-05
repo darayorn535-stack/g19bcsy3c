@@ -1,9 +1,3 @@
-<?php
-
-include '../includes/header.inc.php';
-include '../includes/navbar.inc.php';
-
-?>
 <!-- Login form 123-->
 <!-- form -->
 
@@ -26,11 +20,3 @@ include '../includes/navbar.inc.php';
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </section>
-
-
-<!-- script -->
-<?php
-
-include '../includes/footer.inc.php';
-
-?>
