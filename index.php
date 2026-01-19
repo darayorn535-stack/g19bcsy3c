@@ -1,10 +1,11 @@
 <?php
+include './init/db.init.php';
 include './includes/header.inc.php';
 include './includes/navbar.inc.php';
 
 $available_page = ['login' , 'register'];
 
-
+ 
 if (isset($_GET['page'])) {
     $page = $_GET['page'];
 
@@ -12,14 +13,15 @@ if (isset($_GET['page'])) {
         include './pages/' . $page . '.php';
 
     }else{
-        echo '<h1>404 page not found</h1>';
+        include './pages/dashboard.php';
     }
 
     
 
 
 }else{
-        echo '<h1>404 page not found</h1>';
+        include './pages/error404.php';
+
     }
 
 include './includes/footer.inc.php';
